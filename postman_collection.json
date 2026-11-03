@@ -1,0 +1,4 @@
+{
+  "info": {"name": "Express Users API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"},
+  "item": [{"name": "Create user", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "body": {"mode": "raw", "raw": "{\n  \"firstName\": \"Иван\",\n  \"lastName\": \"Иванов\",\n  \"phoneNumber\": \"+79991234567\"\n}"}, "url": {"raw": "http://localhost:3000/users", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["users"]}}}]
+}

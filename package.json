@@ -1,0 +1,9 @@
+{
+  "name": "express-users-project",
+  "version": "1.0.0",
+  "description": "Express.js API for adding users to an existing SQLite database",
+  "main": "src/server.js",
+  "scripts": {"start": "node src/server.js", "dev": "node --watch src/server.js", "test": "node --test"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"express": "^4.21.2", "sqlite3": "^5.1.7"}
+}
